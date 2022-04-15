@@ -3,13 +3,13 @@ First Coding project
 
 Connect 4 was my final project for my first ever programming class. I used Python and turtle.
 
-# Description
-Summary: Classes - Game, Win, Turtle_connect
-	 Atrributes - 2 integers: rows and columns
-                      2 floats: initial x and y coordinates
-		      2 strings: red_file, yellow_file
-	 Data structures used -  nestedlist, list, disctionaries
-	 Non-class function - menu function in the driver file
+# Summary: Classes - Game, Win, Turtle_connect
+ - Atrributes 
+ 	 - 2 integers: rows and columns
+  	 - 2 floats: initial x and y coordinates
+	 - 2 strings: red_file, yellow_file
+ - Data structures used -  nestedlist, list, disctionaries
+ - Non-class function - menu function in the driver file
 
 
 # Notes:
