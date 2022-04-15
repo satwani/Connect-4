@@ -1,0 +1,43 @@
+'''CS5001
+   Karan Satwani
+   Project
+'''
+
+Level accomplished: A+
+'''
+Note: For A+, I've added an element of luck to game and made the board circular on the edges.
+      After every turn, player/computer has 50% chance of getting another turn.
+      Meaning any player can go multiple times(more than 2 as well) and if lucky, game can be won at that turn(even first!!).
+      If the player/computer gets to go again, it is shown right below the grid.
+'''
+
+Summary: Classes - Game, Win, Turtle_connect
+	 Atrributes - 2 integers: rows and columns
+                      2 floats: initial x and y coordinates
+		      2 strings: red_file, yellow_file
+	 Data structures used -  nestedlist, list, disctionaries
+	 Non-class function - menu function in the driver file
+
+Approach to testing: 
+'''
+Note: 
+I've tested all the methods and attributes for both classes expect methods 
+that call other methods or call turtle. For testing all types of possible wins.
+I was unable to test player and computer turn methods because they're very
+complex and are called from other functions and use different attributes from different methods.
+'''
+	Since I was unable to check methods for player and computer turns, I check all the attributes 
+	they use/modify and checked for all types of win based on those modifications.
+	I created a small four by four grid to check for horizontal, vertical and
+	two diagonal wins and even checked for a draw when the grid was full of player/computer values.
+	In addition, to check if my turtle class and methods were working properly. I test the attributes that
+	turtle classes uses. 
+	For eg, testing player value for color, file name to display score and position lists for x and y coordinates to draw circles.
+	I tested these by testing additional attributes in the Win class and Game class test.
+
+'''
+Note:
+I've limited the manual user inputs for rows and columns to between 4 and 9.
+Connect 4 would does make sense for less than 4x4.
+Limited at 9x9 for visual purposes even though my code work for any integer value.
+'''
